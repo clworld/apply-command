@@ -8,6 +8,8 @@ Apply external command to current file or selection
 
 Commands are defined in .json file and can execute via editors context menu.
 
+![menu](https://raw.githubusercontent.com/wiki/clworld/apply-command/images/menu.png)
+
 # TODO
 * multiple selections
 * multiple file (xargs may simple solution)
