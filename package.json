@@ -1,10 +1,9 @@
 {
   "name": "apply-command",
   "main": "./lib/apply-command",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Apply command to current file or selection",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/clworld/apply-command",
   "license": "MIT",
   "engines": {
