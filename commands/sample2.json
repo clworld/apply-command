@@ -1,0 +1,7 @@
+{
+  "commandName": "Sample command (sample2.rb)",
+  "note": "execute script file sample",
+  "mode": "replace-command",
+  "command": "ruby",
+  "args": ["-Ku", "--", "sample2.rb"]
+}

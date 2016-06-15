@@ -1,0 +1,7 @@
+{
+  "commandName": "toSnakeCase",
+  "note": "'aaaAaaAaa => aaa_aaa_aaa' replace sample",
+  "mode": "replace-command",
+  "command": "ruby",
+  "args": ["-Ku", "-pe", "$_.gsub!(%r!([a-z])([A-Z])!) { \"#{$1}_#{$2.downcase}\" }"]
+}

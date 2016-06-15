@@ -1,0 +1,9 @@
+{
+  "commandName": "Sample command (ruby one-liner)",
+  "note": "some ruby one-liner sample",
+  "note": "You can specify absolute path of ruby instead of modifying $PATH",
+  "note": "this command will be registered as 'apply-command:apply-sample1'",
+  "mode": "replace-command",
+  "command": "ruby",
+  "args": ["-Ku", "-pe", "$_.chomp!; $_ += \":sample1\\n\";"]
+}
