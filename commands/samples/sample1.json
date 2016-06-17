@@ -3,6 +3,7 @@
   "note": "some ruby one-liner sample",
   "note": "You can specify absolute path of ruby instead of modifying $PATH",
   "note": "this command will be registered as 'apply-command:apply-sample1'",
+  "note": "'replace-command' will execute command for each selection if multiple selections exists",
   "mode": "replace-command",
   "command": "ruby",
   "args": ["-Ku", "-pe", "$_.chomp!; $_ += \":sample1\\n\";"]

@@ -1,7 +1,8 @@
 {
   "commandName": "Sample command (sample2.rb)",
   "note": "execute script file sample",
-  "mode": "replace-command",
+  "note": "'replaceMulti-command' send nul('\\0') separated text to command if multiple selections exists",
+  "mode": "replaceMulti-command",
   "command": "ruby",
   "args": ["-Ku", "--", "sample2.rb"]
 }

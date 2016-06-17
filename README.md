@@ -10,9 +10,17 @@ Commands are defined in .json file and can execute via editors context menu.
 
 ![menu](https://raw.githubusercontent.com/wiki/clworld/apply-command/images/menu.png)
 
-# TODO
-* multiple file (xargs may simple solution)
+## Modes
+* "mode": "replace-command":  
+  execute command for each selections if multiple selections exists.
+* "mode": "replaceMulti-command':  
+  feed multiple selections at once as nul('\0') separated text.  
+  command must be capable of processing nul('\0').  
+  sample: sample2.json
 
-# Notice
+## TODO
+* multiple file (I think run xargs is simpler solution.)
+
+## Notice
 * This plugin simply execute command written in config file. Check command safe before execute.
 * Processing huge file may slow (currently this plugin treat file as sigle String).
